@@ -1,0 +1,50 @@
+export const message = {
+    "invalidEmail" : "please enter valid email",
+    "invalidFirstName": "please enter valid first name",
+    "invalidLastName": "please enter valid last name",
+    "invalidDistributorId": "please enter valid distributor id",
+    "invalidMobile": "please enter valid mobile number",
+    "loginSuccess": "login successfully",
+    "databaseError": "error in fetched record from db",
+    "exceptionOccured": "Exception Occured",
+    "user_not_exist": "user not exist",
+    "you_get_blocked": "you gets blocked , please contact your upline",
+    "noRecordFound": "no record found",
+    "otp_update_successfully": "otp resend succesfully",
+    "otp_sent_successfully": "otp sent successfully",
+    "invalid_otp": "Please enter valid otp",
+    "otp_not_exist": "invalid otp",
+    "otp_verified_successfully": "login successfully",
+    "user_exist": "user exist",
+    "unauthorized": "you are not authorized",
+    "profile_fetch": "profile fetched successfully",
+    "email_already_exist": "Email id already exist",
+    "mobile_already_exist": "Mobile number already exist",
+    "distributor_id_already_exist": "Distributor id already exist",
+    "user_successfully_registered": "user registred successfully",
+    "training_list": "Trainings list get successfully",
+    "training_save": "Successfully taken the training",
+    "training_not_taken": "Not taken the training",
+    "pending_downline_fetch": "Pending downlines list fetch successfully",
+    "active_downline_fetch": "downlines list fetch successfully",
+    "invalid_search": "Please enter valid chracter for search",
+    "deleted_success": "Downline Deleted Successfully"
+}
+
+
+export const mapping = {
+    "login_successfully": true,
+    "user_not_exist": false,
+    "you_get_blocked": false,
+    "otp_update_successfully": true,
+    "otp_sent_successfully": true,
+    "invalid_otp": false,
+    "otp_not_exist": false,
+    "otp_verified_successfully": true,
+    "user_exist": true,
+    "email_already_exist": false,
+    "mobile_already_exist": false,
+    "distributor_id_already_exist": false,
+    "user_successfully_registered": true
+
+}
