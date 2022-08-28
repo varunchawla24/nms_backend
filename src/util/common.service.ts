@@ -4,7 +4,7 @@ const jwt = require("jsonwebtoken");
 import { config } from '../config';
 const pool = require("../database");
 import { message, mapping } from '../message'
-import { constant } from 'src/constants';
+import { constant } from '../constants';
 @Injectable()
 export class CommonService {
 
