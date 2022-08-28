@@ -1,7 +1,7 @@
 import { Body, Controller, Get, Post, Req, Res } from '@nestjs/common';
 import { Response } from 'express';
-import { constant } from 'src/constants';
-import { message } from 'src/message';
+import { constant } from '../constants';
+import { message } from '../message';
 import { SaveTraining } from './training.model';
 import { TrainingService } from './training.service';
 

@@ -1,12 +1,12 @@
 require('dotenv').config();
 import { Injectable } from '@nestjs/common';
 import { HttpService } from '@nestjs/axios';
-import { CommonService } from 'src/util/common.service';
+import { CommonService } from '../util/common.service';
 const jwt = require("jsonwebtoken");
 const pool = require("../database");
 import { message, mapping } from '../message'
-import { constant } from 'src/constants';
-import { Middleware } from 'src/middleware';
+import { constant } from '../constants';
+import { Middleware } from '../middleware';
 import { active_downline } from './user.model';
 
 

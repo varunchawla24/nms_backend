@@ -1,7 +1,7 @@
 import { Injectable, ExecutionContext, Inject } from '@nestjs/common';
 import { AuthGuard } from '@nestjs/passport';
 import { Observable } from 'rxjs';
-import { CommonService } from 'src/util/common.service';
+import { CommonService } from '../util/common.service';
 require('dotenv').config();
 const jwt = require("jsonwebtoken");
 

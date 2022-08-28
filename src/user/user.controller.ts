@@ -1,7 +1,7 @@
 import { Body, Controller, Get, Post, Req, Res } from '@nestjs/common';
 import { Response } from 'express';
-import { constant } from 'src/constants';
-import { message } from 'src/message';
+import { constant } from '../constants';
+import { message } from '../message';
 import { active_downline, delete_downline, Login, Register, verify_otp } from './user.model';
 import { UserService } from './user.service';
 
